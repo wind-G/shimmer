@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "home": "/pages/index/home/index",
+    "exchange": "/pages/index/exchange/index",
+    "sell-things": "/pages/index/sellThings/index",
+    "meet": "/pages/index/meet/index",
+    "personal": "/pages/index/personal/index",
+    "tab-bar": "/components/tabBar/index"
+  }
+}
