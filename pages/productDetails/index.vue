@@ -149,8 +149,8 @@
 					</view>
 				</view>
 				<view class="pro_ftr_but">
-					<view class="pro_ftr_sale">卖同款</view>
-					<view class="pro_ftr_buy">我想要</view>
+					<view class="pro_ftr_sale" @click="stockClick">卖同款</view>
+					<view class="pro_ftr_buy" @click="chichatClick">我想要</view>
 				</view>
 			</view>
 		</view>
@@ -246,7 +246,18 @@
 			
 		},
 		methods: {
-			
+			// 上架微光
+			stockClick(){
+				uni.navigateTo({
+					url: '/pages/newStock/index'
+				})
+			},
+			// 跳转消息对话
+			chichatClick(){
+				uni.navigateTo({
+					url:'/pages/chitchat/index'
+				})
+			}
 		}
 	}
 </script>

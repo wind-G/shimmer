@@ -88,7 +88,9 @@
 			// tab点击
 			tabChange(index){
 				// console.log('tab点击', index)
-				this.tabName = this.tabList[index].name
+				let navName = this.tabList[index].name
+				this.tabName = navName
+				
 			},
 
 		}

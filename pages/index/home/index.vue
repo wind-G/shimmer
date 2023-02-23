@@ -16,7 +16,7 @@
 								</view>
 							</view>
 				 </view>
-				 <view class="home_header_cen">
+				 <view class="home_header_cen" @click="searchPageClick">
 						 <view class="h_search_icon">
 							<image src="../../../static/icon/icon-shaoma.png" mode=""></image>
 						 </view>
@@ -208,6 +208,12 @@
 		onShow() {
 		},
 		methods: {
+			// 跳转搜索页
+			searchPageClick(){
+				uni.navigateTo({
+					url: '/pages/searchPage/index'
+				})
+			},
 		}
 	}
 </script>

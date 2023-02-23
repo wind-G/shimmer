@@ -17,6 +17,104 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/exchangeDetails/index", //操场详情
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/chitchat/index", //消息商品聊天框
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/settingUp/index", //设置
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/collect/index", //我的收藏
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/browse/index", // 历史浏览
+			"style": {
+				"navigationBarTitleText": "历史浏览"
+			}
+		},
+		{
+			"path": "pages/shareMyLife/index", // 发布星光
+			"style": {
+				"navigationBarTitleText": "发布星光"
+			}
+		},
+		{
+			"path": "pages/newStock/index", // 上架微光
+			"style": {
+				"navigationBarTitleText": "上架微光"
+			}
+		},
+		{
+			"path": "pages/attention/index", // 我的关注
+			"style": {
+				"navigationBarTitleText": "我的关注"
+			}
+		},
+		{
+			"path": "pages/beanVermicelli/index", // 我的粉丝
+			"style": {
+				"navigationBarTitleText": "我的粉丝"
+			}
+		},
+		{
+			"path": "pages/article/index", // 我的帖子
+			"style": {
+				"navigationBarTitleText": "我的帖子"
+			}
+		},
+		{
+			"path": "pages/homePage/index", // 个人主页
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		},
+		{
+			"path": "pages/information/index", // 个人资料
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/address/index", // 地址管理
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/searchPage/index", // 搜索页
+			"style": {
+				"navigationBarTitleText": "搜索页"
+				// "navigationStyle": "custom",
+				// "app-plus":{"titleNView": false}
+			}
+		},
+		{
+			"path": "pages/purchase/index", // 购买微光
+			"style": {
+				"navigationBarTitleText": "购买微光"
+			}
+		},
+		{
+			"path": "pages/searchListPage/index", // 搜索列表页
+			"style": {
+				"navigationBarTitleText": "搜索列表"
+			}
 		}
 	],
 	"globalStyle": {

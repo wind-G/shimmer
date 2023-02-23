@@ -136,10 +136,12 @@
 			padding: 10rpx 0rpx;
 			box-sizing: border-box;
 			.fall_it_title{
+				max-height: 70rpx;
 				width: 100%;
 				font-size: 24rpx;
 				color: #333333;
 				font-weight: bold;
+				overflow: hidden;
 			}
 			.fall_it_price{
 				width: 100%;
@@ -177,6 +179,8 @@
 					}
 				}
 				.f_it_name{
+					flex: 1;
+					max-width: 60%;
 					font-size: 20rpx;
 					color: #A7A7A7;
 					overflow: hidden;
